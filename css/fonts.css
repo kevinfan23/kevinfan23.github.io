@@ -1,0 +1,63 @@
+/*** Import Fonts ***/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,300italic,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,400italic,300italic,200,600);
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700);
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fontsicomoon.eot?ndcih3");
+  src: url("../fonts/icomoon.eot?ndcih3#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?ndcih3") format("truetype"), url("../fonts/icomoon.woff?ndcih3") format("woff"), url("../fonts/icomoon.svg?ndcih3#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Futura Book";
+  src: url("../fonts/Futura-Book.ttf"), url("../fonts/Futura-Book.eot");
+  /* IE */ }
+
+@font-face {
+  font-family: "Maison Neue";
+  src: url("../fonts/maison-neue-bold.ttf") format("truetype"), url("../fonts/maison-neue-bold.woff") format("woff"), url("../fonts/maison-neue-bold.svg") format("svg"), url("../fonts/maison-neue-bold.eot");
+  /* IE */ }
+
+@font-face {
+  font-family: "Sofia Pro Regular";
+  src: url("../fonts/SofiaProRegular.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Sofia Pro Light";
+  src: url("../fonts/SofiaProLight.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Sofia Pro Bold";
+  src: url("../fonts/SofiaProBold.otf") format("opentype"); }
+
+[class^="fa-"], [class*=" fa-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.fa-codepen:before {
+  content: "\e900"; }
+
+.fa-dribbble:before {
+  content: "\e901"; }
+
+.fa-linkedin:before {
+  content: "\e902"; }
+
+.fa-envelope-o:before {
+  content: "\e903"; }
+
+.fa-github:before {
+  content: "\e904"; }
+
+.fa-medium:before {
+  content: "\e905"; }
