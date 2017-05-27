@@ -1,17 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Morphing Background Shapes | Demo 1 | Codrops</title>
-		<meta name="description" content="A page background effect where SVG shapes morph and transform on scroll" />
-		<meta name="keywords" content="background, svg, morph, animation, scroll, shape, web development, css, javascript" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="favicon.ico">
-		<link rel="stylesheet" type="text/css" href="bower_components/normalize-css/normalize.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/custom.min.css" />
-		<script>
-			document.documentElement.className = 'js';
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Personal website of Zixuan(Kevin) Fan">
+	<meta name="keywords" content="Zixuan(Kevin) Fan, Kevin Fan, KFan, Zixuan Fan, kfan.io">
+	<meta name="author" content="Zixuan(Kevin) Fan">
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="img-min/favicon/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img-min/favicon/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img-min/favicon/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img-min/favicon/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="img-min/favicon/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="img-min/favicon/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="img-min/favicon/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="img-min/favicon/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="img-min/favicon/favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="img-min/favicon/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="img-min/favicon/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="img-min/favicon/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="img-min/favicon/favicon-128.png" sizes="128x128" />
+	<meta name="application-name" content="&nbsp;"/>
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+	<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+	<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+	<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+	<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+	<link rel="stylesheet" type="text/css" href="bower_components/normalize-css/normalize.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/custom.min.css" />
+	<title>Kevin Fan &#10008; Developer, Designer, and Creative</title>
+	<script>
+		document.documentElement.className = 'js';
 			var supportsCssVars = function() {
 				var s = document.createElement('style'),
 				support;
@@ -47,8 +69,24 @@
 				</svg>
 			</div>
 			<div class="content-wrap">
+				<!-- <ul class="content content--layout content--layout-1" id="parallax">
+					<li class="layer" data-depth="0.00">
+						<img class="content__img" src="img-min/1.jpg" alt="Some image"/>
+					</li>
+					<li class="layer" data-depth="0.40">
+						<h3 class="content__title">daily bruin</h3>
+					</li>
+					<li class="layer" data-depth="0.80">
+						<p class="content__desc">UCLA’s premier source of campus news.</p>
+					</li>
+					<li class="layer" data-depth="0.00">
+						<a href="#" class="content__link">View work
+							<hr>
+						</a>
+					</li>
+				</ul> -->
 				<div class="content content--layout content--layout-1">
-					<img class="content__img" src="img-min/1.jpg" alt="Some image" />
+					<img class="content__img" src="img-min/1.jpg" alt="Some image"/>
 					<h3 class="content__title">daily bruin</h3>
 					<p class="content__desc">UCLA’s premier source of campus news.</p>
 					<a href="#" class="content__link">View work
@@ -113,6 +151,7 @@
 		<script src="bower_components/imagesloaded/imagesloaded.pkgd.min.js"></script>
 		<script src="bower_components/PACE/pace.min.js"></script>
 		<script src="bower_components/scrollMonitor/scrollMonitor.js"></script>
-		<script src="js/main.min.js"></script>
+		<script src="bower_components/parallax/deploy/parallax.min.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>
