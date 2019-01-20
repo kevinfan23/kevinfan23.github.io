@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Personal website of Zixuan(Kevin) Fan">
+	<meta name="keywords" content="Zixuan(Kevin) Fan, Kevin Fan, KFan, Zixuan Fan, kfan.io">
+	<meta name="author" content="Zixuan(Kevin) Fan">
+	<!-- Favicons -->
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="../img-min/favicon/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img-min/favicon/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img-min/favicon/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img-min/favicon/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="../img-min/favicon/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="../img-min/favicon/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="../img-min/favicon/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="../img-min/favicon/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="../img-min/favicon/favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="../img-min/favicon/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="../img-min/favicon/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="../img-min/favicon/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="../img-min/favicon/favicon-128.png" sizes="128x128" />
+	<meta name="application-name" content="&nbsp;"/>
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+	<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+	<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+	<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+	<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+	
+	<script src="../bower_components/PACE/pace.min.js"></script>
+	<script src="../bower_components/smooth-scroll.js/src/js/smooth-scroll.js"></script>
+	<link rel="stylesheet" href="../bower_components/normalize-css/normalize.min.css">
+	<link href="../bower_components//zoom.js/css/zoom.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="../css/style.css">
+	<title>Kevin Fan | CC Lab</title>
+</head>
+<body>
+	<header>
+		<a href="../index.html" class="logo">
+			<div class="rev" id="rev-logo">
+				<img src="../img-min/logo.svg" id="logo-img"/>
+			</div>
+		</a>
+		
+		<div class="header about-header about-row">
+			<div class="des-wrapper col-12">
+				<span class="des title-1">CC Lab,</span>
+			</div>		
+		</div>
+		
+		<div class="about-header about-row">
+			<div class="col-6">
+				<p class="des-p">
+	
+					Arduino, Creative Coding, Javascript
+					<br>
+					
+					<span class="timestamp">Fall 2017</span>
+					<br>
+	
+					<span class="timestamp">Creativity & Computation Lab</span>
+					<br>
+	
+					<span class="timestamp">Parsons School of Design</span>
+					<br>
+					
+				</p>
+			</div>
+			<div class="col-6">
+				<p class="des-p">
+					A collection of class projects of the Parsons Creativity & Computation Lab. 
+					Topics of this lab span from physical computing (Arduino), web (Javascript), and creative coding (openFrameworks).
+				</p>
+			</div>
+		</div>
+		
+		<div class="about-header about-row">
+			<div class="col-12">
+				<p class="des-p">
+					<a href="#week-1">Week 1</a><br>
+					<a href="#week-3">Week 2-3</a><br>
+					<a href="#week-4">Week 4-6</a><br>
+					<a href="#week-7">Week 7</a><br>
+					<a href="#week-8">Week 8-10</a><br>
+					<a href="#week-11">Final</a><br>
+				</p>
+			</div>
+		</div>
+		
+	</header>
+	
+	<section class="about-row" id="week-1">
+		
+		<div class="col-12">
+			<p class="des-p">
+				<span class="category">Week 1: Button</span>
+				<br>
+				In week 1, I'm trying to control the state of a servo using button. 
+				I used <a href="http://fritzing.org" target="_blank">Fritzing</a> to draw the circuit diagram. 
+				The overall circuit utilizes an input and output pin from the Arduino board. The input pin reads digital signal of the button state.
+				When the button is pressed/High, the servo rotates clockwise continuously. 
+				While the button is released/Low, the servo hand rotates back to the initial position. 
+				In addition, I use a 330Ω resister to protect the circuit and connect it between the button and ground.
+			</p>
+
+			<img class="work-img" src="../img-min/work/cc/hw1/0.png" data-action="zoom"/>
+		</div>
+		
+	</section>
+	
+	<section class="about-row">
+		<div class="col-12">
+			<p class="des-p">
+				The detailed implementation and breadboarding of the circuit is shown as the followings.
+			</p>
+
+		</div>
+	</section>
+	
+	<section class="about-row">
+		<div class="col-6">
+			<img class="work-img" src="../img-min/work/cc/hw1/1.JPG" data-action="zoom"/>
+		</div>
+		<div class="col-6">
+			<img class="work-img" src="../img-min/work/cc/hw1/2.JPG" data-action="zoom"/>
+		</div>	
+	</section>
+	
+	<section class="about-row">
+		<div class="col-12">
+			<p class="des-p">
+				<span class="category">Result</span>
+			</p>
+			<div class="video-wrapper">
+				<iframe src="https://player.vimeo.com/video/233362090?title=0&byline=0&portrait=0" width="640" height="362" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+	
+	<section class="about-row" id="week-3">
+		
+		<div class="col-12">
+			<p class="des-p">
+				<span class="category">Week 2-3: Sensors and Serial Communication</span>
+				<br>
+				In this project, I tried to control the state of two LEDs on the breadboard via serial communication between Arduino and Processing.
+				The master of communication is the Processing snippet we wrote on the laptop: according to the position of mouse, if the mouse hovers to the 
+				red rectangular area, the red LED on the breadboard lights up. 
+				When the mouse hovers onto the green rectangle display on Processing, the green LED lights up instead. 
+				If the mouse is outside of either rectangular areas. All output state of the LEDs are registered as OFF.
+				The circuit breadboarding setup and Processing interface are shown as the followings:
+				
+			</p>
+		</div>
+		
+	</section>
+	
+	<section class="about-row">
+		<div class="col-6">
+			<img class="work-img" src="../img-min/work/cc/hw3/1.JPG" data-action="zoom"/>
+		</div>
+		<div class="col-6">
+			<img class="work-img" src="../img-min/work/cc/hw3/2.png" data-action="zoom"/>
+		</div>	
+	</section>
+	
+	<section class="about-row">
+		<div class="col-12">
+			<p class="des-p">
+				<span class="category">Result</span>
+			</p>
+			<div class="video-wrapper">
+				<iframe src="https://player.vimeo.com/video/235368747?title=0&byline=0&portrait=0" class="aligncenter" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+	
+	<section class="about-row" id="week-4">
+		
+		<div class="col-12">
+			<p class="des-p">
+				<span class="category">Week 4-6: Arduino Midterm</span>
+				<br>
+				In the two-week period, I designed a simple shooting game using Arduino and Processing. The character is controlled by a joystick connected to the Arduino board. To make the game more interesting, I designed a penguin world from scratch and all the game elements. Players can control the penguin to move, shoot and trespass various areas such as water, rock, wall, and grass. When two computers can connected, players can setup a server with multiple clients to play the game together.
+			</p>
+		</div>
+		
+	</section>
+	
+	<section class="about-row">
+		
+		<div class="col-6">
+			<p class="des-p">
+				To implement the game, we used the serial communication between Arduino and Processing with the same technique as the previous week. The joystick sends a single command through serial channel to the Processing terminal. When received the encoded commands, the Processing application extract the moves and run the game on screen. Here we used serial communication because the game is played sequentially so that serial communication can best ensure the command to be delivered in the correct order. The final results can be seen below.
+				
+			</p>
+		</div>
+		<div class="col-6">
+			<img class="work-img" src="../img-min/work/cc/mt/1.JPG" data-action="zoom"/>
+		</div>
+	</section>
+	
+	<section class="about-row">
+		<div class="col-12">
+			<p class="des-p">
+				<span class="category">Result</span>
+			</p>
+			<div class="video-wrapper">
+				<iframe src="https://player.vimeo.com/video/243584399?title=0&byline=0&portrait=0" class="aligncenter" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+
+	
+	<section class="about-row" id="week-7">
+		
+		<div class="col-12">
+			<p class="des-p">
+				<span class="category">Week 7: Javascript API</span>
+				<br>
+				This week, we are required to utilize any APIs on the web to create an interactive project based on the web.
+				I picked the weather temperature API from <a href="https://openweathermap.org" target="_blank">OpenWeatherMap</a>, 
+				which provides us realtime temperatures in cities around the world.
+				<br>
+				<br>
+				This project used native Javascript code to demonstrate the use of Javascript HTTP request and JSON parsing without the assist of libraries. 
+				The project source code can be found under the Distribution below.
+				
+			</p>
+		</div>
+		
+	</section>
+	
+	
+	<section class="about-row">
+		<div class="col-12">
+			<p class="des-p">
+				<span class="category">Result</span>
+			</p>
+			<div class="col-12">
+				<img class="work-img" src="../img-min/work/cc/hw7/1.png" data-action="zoom"/>
+			</div>	
+		</div>
+	</section>
+	
+	<section class="about-row" id="week-8">
+		
+		<div class="col-12">
+			<p class="des-p">
+				<span class="category">Week 8-10: openFrameworks</span>
+				<br>
+				For the span of 3 weeks, we covered the basics of openFrameworks and fundamentals of Object-Oriented Programming (OOP). 
+				For the focus of the class period and homework, we examine into the particle system and kept improving on this area for the following weeks
+				<br>
+				<br>
+				This simple line animation consists of a particle system that follows the position and direction of the mouse. 
+				The particle system consists of 1000 randomly positioned circular objects that constantly draw on the screen. 
+				Depending on the speed of each object, you will be able to see the line kind of gain the fluid silky texture. 
+				
+			</p>
+		</div>
+		
+	</section>	
+	
+	<section class="about-row">
+		<div class="col-12">
+			<p class="des-p">
+				<span class="category">Result</span>
+			</p>
+			<div class="video-wrapper">
+				<iframe src="https://player.vimeo.com/video/243717545?title=0&byline=0&portrait=0" class="aligncenter" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+	
+	<section class="about-row" id="week-11">
+		
+		<div class="col-12">
+			<p class="des-p">
+				<span class="category">Final: openFrameworks</span>
+				<br>
+				For the final project of openFrameworks, I used the physical library <a href="http://box2d.org" target="_blank">Box2d</a> for openFrameworks in order to make the world more realistic. 
+				The game is called Space Junk, in the hope of raising the attention to protecting the environment. 
+				In this game, the player has to draw lines using their mouse on the white canvas in order to direct the circles to go into the trash can.
+				The whole path cannot go across other spatial objects in the window. 
+				The lines created by mouse are converted to edges in the Box2D world so that the dynamic system in Box2d can take care of all the physics in the world.
+				
+				<br>
+				<br>
+				 
+			</p>
+		</div>
+		
+	</section>	
+	
+	<section class="about-row">
+		<div class="col-12">
+			<p class="des-p">
+				<span class="category">Result</span>
+			</p>
+			<div class="video-wrapper">
+				<iframe src="https://player.vimeo.com/video/246892683?title=0&byline=0&portrait=0" class="aligncenter" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+	
+	<section class="about-row">
+			
+		<div class="col-6">
+			<p class="des-p">
+				<span class="category">References</span>
+				<br>
+				
+				<a href="https://www.arduino.cc/en/Tutorial/Button" target="_blank">Arduino Button</a>
+				<br>
+				
+				<a href="https://www.arduino.cc/en/Reference/Servo" target="_blank">Arduino Servo</a>
+				<br>
+				
+				<a href="https://openweathermap.org" target="_blank">OpenWeatherMap API</a>
+				<br>
+				
+				<a href="http://openframeworks.cc" target="_blank">openFrameworks</a>
+				<br>
+				
+				<a href="http://box2d.org" target="_blank">Box2d</a>
+			</p>
+		</div>
+		<div class="col-6">
+			<p class="des-p">
+				<span class="category">Distribution</span>
+				<br>
+
+				Github Source Code
+				<a href="https://github.com/kevinfan23/parsons/tree/master/fall17/cc_lab/" target="_blank" class="arrow-link" style="color: #3F99FF;">&#8594;</a>
+				<br>
+				
+				MIT License			
+			</p>
+		</div>		
+	</section>
+
+	<section class="row row-social">
+		<span>Find me on</span>
+		<nav class="social"> 
+			<ul>
+				<li class="icon">
+					<a href="https://www.instagram.com/kfan23/" target="_blank">
+						<i class="icon-instagram"></i>
+					</a>
+				</li>
+				<li class="icon">
+					<a href="https://www.linkedin.com/in/zixuan-kevin-fan-85492226/" target="_blank">
+						<i class="icon-linkedin"></i>
+					</a>
+				</li>
+				<li class="icon">
+					<a href="https://github.com/kevinfan23" target="_blank">
+						<i class="icon-github"></i>
+					</a>
+				</li>
+				<li class="icon">
+					<a href="mailto:fanz555@newschool.edu" alt="fanz555@newschool.edu" title="fanz555@newschool.edu">
+						<i class="icon-envelope-o"></i>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</section>
+	
+	<footer class="row footer">
+		<a onclick="goBack()" class="nav-arrow arrow-link">&#8629;
+<!-- 			<span class="arrow">&#8627;</span> -->
+		</a>
+	</footer>
+
+	
+
+<script async>
+	var scroll = new SmoothScroll('a[href*="#"]', {
+		// Selectors
+		ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
+		header: null, // Selector for fixed headers (must be a valid CSS selector)
+	
+		// Speed & Easing
+		speed: 700, // Integer. How fast to complete the scroll in milliseconds
+		offset: 100, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+		easing: 'easeInOutCubic', // Easing pattern to use
+	
+		// Callback API
+		before: function () {}, // Callback to run before scroll
+		after: function () {} // Callback to run after scroll
+	});
+<!--    smoothScroll.init(); -->
+</script>
+	
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78914715-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../bower_components/animejs/anime.min.js"></script>
+<script src="../bower_components/bootstrap-transition/scripts/transition.js"></script>
+<script src="../bower_components/zoom.js/dist/zoom.min.js"></script>
+<script src="../js/vendor/revealer.js"></script>
+<script src="../js/work.js"></script>
+</body>
+</html>
