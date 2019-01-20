@@ -109,9 +109,8 @@ function loadShots() {
       if (data.length > 0) {
         data = data.filter(val => val.projects.length);
         $.each(data.reverse(), function(i, val) {
-          console.log(val.projects);
           $("#shots").prepend(
-            '<div class="shot col-4"><img src="' +
+            '<div class="shot col-4"><img class="dribbble-img" src="' +
               val.images.hidpi +
               '" data-action="zoom"/>' +
               '<p class="dribbble-p">' +
@@ -123,6 +122,11 @@ function loadShots() {
               "</p>" +
               "</div>"
           );
+        });
+        $(".dribbble-img").mouseenter(function() {
+          console.log("haha");
+          let src = $(this).attr("src");
+          $(this).attr("src", src);
         });
       } else {
         $("#shots").append("<p>No shots yet!</p>");
