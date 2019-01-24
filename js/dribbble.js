@@ -102,7 +102,9 @@ function loadShots() {
     "044d748c2b4fe57d69e45ae8b439916bf95b7246274cb26e35c68a9dbf45740a";
   // call dribble v2 api
   $.ajax({
-    url: "https://api.dribbble.com/v2/user/shots?access_token=" + accessToken,
+    url:
+      "https://api.dribbble.com/v2/user/shots?per_page=100&access_token=" +
+      accessToken,
     dataType: "json",
     type: "GET",
     success: function(data) {
