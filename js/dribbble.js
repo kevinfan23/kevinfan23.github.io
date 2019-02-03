@@ -103,13 +103,13 @@ function loadShots() {
   // call dribble v2 api
   $.ajax({
     url:
-      "https://api.dribbble.com/v2/user/shots?per_page=100&access_token=" +
+      "https://api.dribbble.com/v2/user/shots?per_page=15&access_token=" +
       accessToken,
     dataType: "json",
     type: "GET",
     success: function(data) {
       if (data.length > 0) {
-        data = data.filter(val => val.projects.length);
+        data = data.filter(val => val.projects.length).slice(0, 12);
         $.each(data.reverse(), function(i, val) {
           $("#shots").prepend(
             '<div class="shot col-4"><img class="dribbble-img" src="' +
