@@ -109,7 +109,13 @@ function loadShots() {
     type: "GET",
     success: function(data) {
       if (data.length > 0) {
-        data = data.filter(val => val.projects.length).slice(0, 12);
+        data = data
+          .filter(
+            val =>
+              val.projects[0].name == "framerx" ||
+              val.projects[0].name == "ux-motion"
+          )
+          .slice(0, 12);
         $.each(data.reverse(), function(i, val) {
           $("#shots").prepend(
             '<div class="shot col-4"><img class="dribbble-img" src="' +
